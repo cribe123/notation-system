@@ -1,5 +1,5 @@
 from math import pow
-a=input('Введите число... ')
+a=input('Введите число... ')[::-1]
 b=int(input('Введите его СС цифрой... '))
 xpow = 0
 for i in range(len(a)-1,-1,-1):
